@@ -29,6 +29,12 @@ h1 {
     color: white;
 }
 
+/*w3w location in channel app bar */
+h1 small a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
 
 /*CHANNELS LIST*/
 ul {
