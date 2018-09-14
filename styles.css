@@ -1,0 +1,134 @@
+/*
+PALETTE:
+* Background: #F5F5F5 (GREY 100)
+* Primary Text: black
+* Primary color: #3F51B5 (INDIGO)
+* Primary color_text : white
+* Accent color: #CDDC39 (LIME)
+* Accent color_text: black
+*/
+
+
+/*GLOBAL*/
+* {
+    /* #2 #font #faces */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+
+/*APP BAR*/
+h1 {
+    background-color: #3F51B5;
+    color: white;
+}
+
+
+/*CHANNELS LIST*/
+ul {
+    background-color: white;
+    list-style-type: none;
+}
+
+ul li {
+    padding: 16px;
+    font-size: 16px;
+    box-sizing: border-box;
+    height: 48px;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+/*currently selected channel*/
+ul li.selected {
+    border-left: 4px solid #3F51B5;
+}
+
+/*favorite icons*/
+ul li img {
+    vertical-align: sub;
+}
+
+
+/*TAB BAR*/
+#tab-bar {
+    background-color: white;
+}
+
+#tab-bar button {
+    text-transform: uppercase;
+    background-color: white;
+    border: none;
+    font-size: 13px;
+    width: 30%;
+    height: 72px;
+    padding: 16px;
+}
+
+/*tab icons*/
+#tab-bar button img {
+    display: block;
+    margin: auto;
+    margin-bottom: 4px;
+}
+
+/*currently selected tab*/
+#tab-bar button.selected {
+    border-bottom: 4px solid #3F51B5;
+}
+
+
+/*MESSAGES*/
+/*message containers*/
+.message {
+    width: 80%;
+    margin-bottom: 8px;
+    margin-left: 2.5%;
+}
+
+/*own messages are positioned to the right*/
+.own {
+    margin-left: 17.5%;
+}
+
+
+/*message metadata*/
+.message h3 {
+    font-size: medium;
+}
+
+/*links and buttons*/
+.message h3 a,
+.message button {
+    color: black;
+}
+
+/*+5 min. buttons*/
+.message button {
+    text-transform: uppercase;
+    background-color: #CDDC39;
+    text-align: center;
+}
+
+/*w3w location*/
+.message h3 strong {
+    text-transform: uppercase;
+}
+
+/*ttl info*/
+.message h3 em {
+    font-size: larger;
+    font-style: normal;
+}
+
+
+/*message text*/
+.message p {
+    background-color: white;
+    padding: 16px;
+}
